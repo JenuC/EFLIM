@@ -13,7 +13,7 @@ addpath(genpath('.//utils'));
 %% PARAMETERS
 % filename_spc: the .spc file
 if ~exist('filename_spc', 'var')
-    filename_spc = './/ExampleData//highNA_zoom5.6_avg1slice1_920nmenergy2.5%_OG488.spc';
+    filename_spc = './/ExampleData//highNA_zoom5.6_avg1slice1_920nmenergy2.5__OG488.spc';
 end
 % savepath: output directory
 if ~exist("savepath", 'var')
